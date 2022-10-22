@@ -7449,11 +7449,11 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </net>
 <net name="CH1" class="0">
 <segment>
-<wire x1="63.5" y1="7.62" x2="142.24" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="D"/>
-<wire x1="142.24" y1="7.62" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="4"/>
-<wire x1="63.5" y1="7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="D"/>
+<wire x1="53.34" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="15.24" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="8"/>
+<wire x1="53.34" y1="15.24" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CH3" class="0">
@@ -7466,15 +7466,6 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </segment>
 </net>
 <net name="CH2" class="0">
-<segment>
-<wire x1="88.9" y1="22.86" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="D1"/>
-<pinref part="SV1" gate="1" pin="5"/>
-<wire x1="60.96" y1="12.7" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CH4" class="0">
 <segment>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D1"/>
@@ -7496,15 +7487,6 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <wire x1="-2.54" y1="12.7" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-2.54" y="12.7"/>
 <label x="-2.54" y="17.78" size="1.4224" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="CH5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D"/>
-<wire x1="53.34" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="15.24" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="8"/>
-<wire x1="53.34" y1="15.24" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -7716,6 +7698,24 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <pinref part="U$5" gate="G$1" pin="GP0"/>
 <wire x1="-33.02" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="-25.4" y="66.04" size="1.4224" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CH5" class="0">
+<segment>
+<wire x1="63.5" y1="7.62" x2="142.24" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="D"/>
+<wire x1="142.24" y1="7.62" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="4"/>
+<wire x1="63.5" y1="7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CH4" class="0">
+<segment>
+<wire x1="88.9" y1="22.86" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D1"/>
+<pinref part="SV1" gate="1" pin="5"/>
+<wire x1="60.96" y1="12.7" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
