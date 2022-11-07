@@ -7596,7 +7596,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="15.24" y="114.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CH2S" class="0">
+<net name="CH1S" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="48.26" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
@@ -7613,7 +7613,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="-25.4" y="35.56" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CH1S" class="0">
+<net name="CH2S" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <junction x="43.18" y="48.26"/>
@@ -7629,7 +7629,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="-25.4" y="40.64" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CH4S" class="0">
+<net name="CH3S" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <junction x="104.14" y="48.26"/>
@@ -7646,7 +7646,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="-25.4" y="45.72" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CH3S" class="0">
+<net name="CH4S" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="48.26" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
