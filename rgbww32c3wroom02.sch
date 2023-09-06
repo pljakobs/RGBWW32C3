@@ -7158,11 +7158,11 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <library name="ESP32C3M">
 <packages>
 <package name="SMD">
-<wire x1="-8.89" y1="12.7" x2="-8.89" y2="6.7" width="0.127" layer="20"/>
-<wire x1="-8.89" y1="6.7" x2="9.11" y2="6.7" width="0.127" layer="20"/>
-<wire x1="9.11" y1="6.7" x2="9.11" y2="12.7" width="0.127" layer="20"/>
-<wire x1="9.11" y1="12.7" x2="-8.89" y2="12.7" width="0.127" layer="20"/>
-<wire x1="-8.89" y1="6.7" x2="-8.89" y2="-7.3" width="0.127" layer="20"/>
+<wire x1="-8.89" y1="12.7" x2="-8.89" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="6.7" x2="9.11" y2="6.7" width="0.127" layer="21"/>
+<wire x1="9.11" y1="6.7" x2="9.11" y2="12.7" width="0.127" layer="21"/>
+<wire x1="9.11" y1="12.7" x2="-8.89" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="6.7" x2="-8.89" y2="-7.3" width="0.127" layer="21"/>
 <wire x1="-9.89" y1="13.7" x2="10.11" y2="13.7" width="0.127" layer="39"/>
 <wire x1="10.11" y1="13.7" x2="10.11" y2="6.7" width="0.127" layer="39"/>
 <wire x1="10.11" y1="6.7" x2="-9.89" y2="6.7" width="0.127" layer="39"/>
@@ -7189,8 +7189,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <smd name="P$7" x="-8.89" y="2.6" dx="1.5" dy="0.9" layer="1"/>
 <smd name="P$8" x="-8.89" y="4.1" dx="1.5" dy="0.9" layer="1"/>
 <smd name="P$9" x="-8.89" y="5.6" dx="1.5" dy="0.9" layer="1"/>
-<wire x1="-8.89" y1="-7.3" x2="9.11" y2="-7.3" width="0.127" layer="20"/>
-<wire x1="9.11" y1="-7.3" x2="9.11" y2="6.7" width="0.127" layer="20"/>
+<wire x1="-8.89" y1="-7.3" x2="9.11" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="9.11" y1="-7.3" x2="9.11" y2="6.7" width="0.127" layer="21"/>
 <smd name="P$10" x="9.11" y="-6.4" dx="1.5" dy="0.9" layer="1"/>
 <smd name="P$11" x="9.11" y="-4.9" dx="1.5" dy="0.9" layer="1"/>
 <smd name="P$12" x="9.11" y="-3.4" dx="1.5" dy="0.9" layer="1"/>
@@ -7205,28 +7205,28 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </packages>
 <symbols>
 <symbol name="ESP32-C3-WROOM02">
-<pin name="VCC" x="2.54" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="10.16" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="IO0" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="IO1" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="I02" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="I03" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="IO19" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="IO18" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="TXD" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="RXD" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="EN" x="-10.16" y="5.08" length="middle" direction="in"/>
-<pin name="IO4" x="-10.16" y="0" length="middle"/>
-<pin name="IO9" x="-10.16" y="-25.4" length="middle"/>
-<pin name="IO8" x="-10.16" y="-20.32" length="middle"/>
-<pin name="IO7" x="-10.16" y="-15.24" length="middle"/>
-<pin name="IO6" x="-10.16" y="-10.16" length="middle"/>
-<pin name="I05" x="-10.16" y="-5.08" length="middle"/>
-<pin name="IO10" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="12.7" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-33.02" x2="-5.08" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-33.02" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<pin name="VCC" x="-5.08" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="-2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="IO0" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="IO1" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="I02" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="I03" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="IO19" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="IO18" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="TXD" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="RXD" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="EN" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="IO4" x="-17.78" y="7.62" length="middle"/>
+<pin name="IO9" x="-17.78" y="-5.08" length="middle"/>
+<pin name="IO8" x="-17.78" y="-2.54" length="middle"/>
+<pin name="IO7" x="-17.78" y="0" length="middle"/>
+<pin name="IO6" x="-17.78" y="2.54" length="middle"/>
+<pin name="I05" x="-17.78" y="5.08" length="middle"/>
+<pin name="IO10" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7349,7 +7349,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <instance part="+3V4" gate="G$1" x="-7.62" y="-5.08"/>
 <instance part="R10" gate="G$1" x="-2.54" y="7.62" rot="R90"/>
 <instance part="GND1" gate="1" x="-55.88" y="114.3"/>
-<instance part="GND3" gate="1" x="-45.72" y="78.74"/>
+<instance part="GND3" gate="1" x="-55.88" y="73.66"/>
 <instance part="RST" gate="G$1" x="-88.9" y="78.74" smashed="yes">
 <attribute name="NAME" x="-83.82" y="76.2" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-91.44" y="76.2" size="1.778" layer="96"/>
@@ -7374,7 +7374,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <attribute name="NAME" x="-93.98" y="35.56" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-101.6" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="-63.5" y="63.5"/>
+<instance part="U$5" gate="G$1" x="-58.42" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -7437,7 +7437,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-53.34" y1="81.28" x2="-45.72" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="73.66" x2="-55.88" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="U$5" gate="G$1" pin="GND"/>
 </segment>
@@ -7513,8 +7513,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </net>
 <net name="CLR" class="0">
 <segment>
-<wire x1="-40.64" y1="48.26" x2="-25.4" y2="48.26" width="0.1524" layer="91"/>
-<label x="-25.4" y="48.26" size="1.4224" layer="95" xref="yes"/>
+<wire x1="-48.26" y1="53.34" x2="-33.02" y2="53.34" width="0.1524" layer="91"/>
+<label x="-33.02" y="53.34" size="1.4224" layer="95" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="IO18"/>
 </segment>
 <segment>
@@ -7545,15 +7545,15 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="-40.64" y1="63.5" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="-25.4" y="63.5" size="1.4224" layer="95" xref="yes"/>
+<wire x1="-48.26" y1="60.96" x2="-38.1" y2="60.96" width="0.1524" layer="91"/>
+<label x="-38.1" y="60.96" size="1.4224" layer="95" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="I02"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<wire x1="-40.64" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
-<label x="-25.4" y="53.34" size="1.4224" layer="95" xref="yes"/>
+<wire x1="-48.26" y1="55.88" x2="-38.1" y2="55.88" width="0.1524" layer="91"/>
+<label x="-38.1" y="55.88" size="1.4224" layer="95" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="IO19"/>
 </segment>
 </net>
@@ -7578,8 +7578,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <junction x="-10.16" y="132.08"/>
 </segment>
 <segment>
-<wire x1="-60.96" y1="81.28" x2="-60.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="-60.96" y="88.9" size="1.4224" layer="95" rot="R90" xref="yes"/>
+<wire x1="-63.5" y1="73.66" x2="-63.5" y2="78.74" width="0.1524" layer="91"/>
+<label x="-63.5" y="78.74" size="1.4224" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -7608,7 +7608,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <pinref part="RST" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="78.74" x2="-83.82" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-83.82" y1="68.58" x2="-73.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="68.58" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-83.82" y="68.58"/>
 <pinref part="U$5" gate="G$1" pin="EN"/>
 </segment>
@@ -7631,7 +7631,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="IO8"/>
-<wire x1="-73.66" y1="43.18" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="50.8" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
 <label x="-88.9" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -7647,7 +7647,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="IO7"/>
-<wire x1="-73.66" y1="48.26" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="53.34" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
 <label x="-88.9" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -7664,7 +7664,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="IO6"/>
-<wire x1="-73.66" y1="53.34" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="55.88" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
 <label x="-88.9" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -7680,7 +7680,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="I05"/>
-<wire x1="-73.66" y1="58.42" x2="-88.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="58.42" x2="-88.9" y2="58.42" width="0.1524" layer="91"/>
 <label x="-88.9" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -7696,7 +7696,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="IO4"/>
-<wire x1="-73.66" y1="63.5" x2="-88.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="60.96" x2="-88.9" y2="63.5" width="0.1524" layer="91"/>
 <label x="-88.9" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -7707,8 +7707,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="15.24" y="111.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-40.64" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
-<label x="-25.4" y="43.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="-48.26" y1="50.8" x2="-38.1" y2="50.8" width="0.1524" layer="91"/>
+<label x="-38.1" y="50.8" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="TXD"/>
 </segment>
 </net>
@@ -7719,8 +7719,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="15.24" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-40.64" y1="38.1" x2="-25.4" y2="38.1" width="0.1524" layer="91"/>
-<label x="-25.4" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="-48.26" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
+<label x="-33.02" y="48.26" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="RXD"/>
 </segment>
 </net>
@@ -7731,8 +7731,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <label x="45.72" y="109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-40.64" y1="73.66" x2="-25.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="-25.4" y="73.66" size="1.4224" layer="95" xref="yes"/>
+<wire x1="-48.26" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
+<label x="-33.02" y="66.04" size="1.4224" layer="95" xref="yes"/>
 <pinref part="U$5" gate="G$1" pin="IO0"/>
 </segment>
 </net>
@@ -7757,7 +7757,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 <net name="PRG" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-81.28" y1="38.1" x2="-73.66" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="38.1" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="IO9"/>
 </segment>
 </net>
