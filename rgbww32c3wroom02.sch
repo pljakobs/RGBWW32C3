@@ -7005,6 +7005,31 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </polygon>
 <smd name="1" x="-1.905" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="2" x="1.905" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1.651" y="2.032"/>
+<vertex x="-2.286" y="1.397"/>
+<vertex x="-2.286" y="-1.397"/>
+<vertex x="-1.651" y="-2.032"/>
+<vertex x="-0.635" y="-2.032"/>
+<vertex x="-0.635" y="-1.143"/>
+<vertex x="-1.27" y="-0.508"/>
+<vertex x="-1.27" y="0.508"/>
+<vertex x="-0.635" y="1.143"/>
+<vertex x="-0.635" y="2.032"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.635" y="1.27"/>
+<vertex x="0.635" y="2.032"/>
+<vertex x="1.651" y="2.032"/>
+<vertex x="2.286" y="1.397"/>
+<vertex x="2.286" y="-1.397"/>
+<vertex x="1.651" y="-2.032"/>
+<vertex x="0.635" y="-2.032"/>
+<vertex x="0.635" y="-1.143"/>
+<vertex x="1.27" y="-0.508"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="0.635" y="1.143"/>
+</polygon>
 </package>
 </packages>
 <symbols>
