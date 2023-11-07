@@ -33,3 +33,8 @@ The last bit of the schematic is to programming port. This device will not be ea
 
 ![programming port](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/ProgrammingHeader.PNG)
 
+The routed board in Eagle 7.7 (yes, I'm still using it when things need to go fast) now looks like this:
+
+![routed board](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/board.PNG)
+
+
