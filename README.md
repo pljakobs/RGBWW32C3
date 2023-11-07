@@ -15,7 +15,8 @@ According to the [ESP32C3Wroom02 Datasheet](https://www.espressif.com/sites/defa
 |IO8|N/A|ignore|HIGH|
 |IO9|weak pullup|HIGH|LOW|
 
-Therefore, IO2 and IO8 need to be pulled high, IO9 should be pulled high for normal operation and pulled to GND for programming / Booting
+Therefore, IO2 and IO8 need to be pulled high, IO9 should be pulled high for normal operation and pulled to GND for programming / Booting.
+
 That results in the following strapping / switching schematic:
 
 ![ESP32C3 pin strapping](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/StrappingAndPullup.PNG)
