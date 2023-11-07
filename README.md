@@ -27,9 +27,9 @@ The output stage has, from a schematic point of view, mostly remained unchanged 
 One of the biggest changes from the original design by Patrick and the last Version (green boards) was that I ditched the 3rd party DC/DC modules in favour of a power converter on board, designed with [TI Power Designer Webbench](https://webench.ti.com/power-designer/switching-regulator?powerSupply=0), a tool that I have come to value a lot. 
 This time, the requirement was to make the power converter smaller but no less powerful (still capable of pushing up to 600mA at 3.3V but optimized for 200mA)
 
-[the switching power supply on board](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/PowerSupply.PNG)
+![the switching power supply on board](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/PowerSupply.PNG)
 
 The last bit of the schematic is to programming port. This device will not be easily programmed "at home" as it should, normally, come without a header installed (which just now makes me think why I have a PRG button on it after all, I should remove that). The programming port is six pads on the bottom of the board, fit to mount a 1/20" SMD pin header that matches the six pin cable of the [esp_prog](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html). The intention is to have a printed jig where the boards can be initially programmed, everything after that should be done OTA
 
-[programming port](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/ProgrammingHeader.PNG)
+![programming port](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/ProgrammingHeader.PNG)
 
