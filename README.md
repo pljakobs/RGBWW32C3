@@ -11,6 +11,7 @@ The design is straight forward:
 
 According to the [ESP32C3Wroom02 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf) the strapping pins are
 |Pin|Default|SPI Boot (normal)|Download Boot (prg)|
+|---|-------|-----------------|-------------------|
 |IO2|N/A|HIGH|HIGH|
 |IO8|N/A|ignore|HIGH|
 |IO9|weak pullup|HIGH|LOW|
