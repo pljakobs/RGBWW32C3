@@ -11,11 +11,13 @@ The design is straight forward:
 
 According to the [ESP32C3Wroom02 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf) the strapping pins are
 |Pin|Default|SPI Boot (normal)|Download Boot (prg)|
+|:--|:------|:---------------:|:-----------------:|
 |IO2|N/A|HIGH|HIGH|
 |IO8|N/A|ignore|HIGH|
 |IO9|weak pullup|HIGH|LOW|
 
-Therefore, IO2 and IO8 need to be pulled high, IO9 should be pulled high for normal operation and pulled to GND for programming / Booting
+Therefore, IO2 and IO8 need to be pulled high, IO9 should be pulled high for normal operation and pulled to GND for programming / Booting.
+
 That results in the following strapping / switching schematic:
 
 ![ESP32C3 pin strapping](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/StrappingAndPullup.PNG)
@@ -32,4 +34,9 @@ This time, the requirement was to make the power converter smaller but no less p
 The last bit of the schematic is to programming port. This device will not be easily programmed "at home" as it should, normally, come without a header installed (which just now makes me think why I have a PRG button on it after all, I should remove that). The programming port is six pads on the bottom of the board, fit to mount a 1/20" SMD pin header that matches the six pin cable of the [esp_prog](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html). The intention is to have a printed jig where the boards can be initially programmed, everything after that should be done OTA
 
 ![programming port](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/ProgrammingHeader.PNG)
+
+The routed board in Eagle 7.7 (yes, I'm still using it when things need to go fast) now looks like this:
+
+![routed board](https://raw.githubusercontent.com/pljakobs/RGBWW32C3/Ureg/board.PNG)
+
 
